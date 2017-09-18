@@ -1,23 +1,14 @@
 /*Overall container*/
 
-body{
-	/*background-image: url(https://res.cloudinary.com/counterpoint-services/image/upload/c_scale,o_42,w_984/v1505646107/photo_b0s6jw.jpg);*/
-
-}
 
 .container {
-	background-color: yellow;
 	width: 90%;
 	margin: auto;
-	background-image: url(https://res.cloudinary.com/counterpoint-services/image/upload/c_scale,o_42,w_984/v1505646107/photo_b0s6jw.jpg);
-	opacity: 60%;
-
 }
 
 /* Navigation */
 
 .nav {
-	background-color: #5e2269;
 	background-image: url(https://res.cloudinary.com/counterpoint-services/image/upload/c_scale,o_42,w_984/v1505646107/photo_b0s6jw.jpg);
 	margin: auto;
 	width: 100%;
@@ -39,8 +30,6 @@ body{
 	border-right: 1px solid #bbb
 }
 
-
-
 .menu_item a {
     display: block;
     color: white;
@@ -50,13 +39,13 @@ body{
 }
 
 .menu_item a:hover {
-    background-color: #111;
+    /*background-color: #969999;*/
+		background-color: #0074D9;
 }
 
 .active {
     background-color: blue;
 }
-
 
 #title {
 	text-align: center;
@@ -66,58 +55,92 @@ body{
 	padding-top: 0.5em;
 }
 
+/*Left hand list of blog items*/
 
-/*Blog menu items*/
-
-.blog_menu, .article_list{
+.blog_menu {
 	margin-top: 3em;
+}
+
+.blog_menu h1 {
+	width: 80%;
+	text-align: left;
+	margin-bottom: 0.5em;
+  border-top: thick solid purple;
 }
 
 #blog_list {
 	list-style: none;
 	margin: 0;
   padding: 0;
-  /*background-color: pink;*/
-	/*opacity: 0.7;*/
+	color: blue;
+	width: 80%;
 }
 
 .blog_item a {
     display: block;
     text-align: left;
-    padding-top:10px;
+		padding-top: 0.8em;
+		padding-bottom: 0.8em;
     text-decoration: none;
+
+}
+
+.blog_item a:hover {
+	/*border-bottom: solid;*/
+	background-color: #0074D9;
+	color: white;
+	opacity: 0.5;
 }
 
 .description{
 	margin-top: 0;
 	margin-bottom: 0;
 }
-/*Articles*/
+/*Blog post list */
+
+.article_list{
+	margin-top: 3em;
+}
 
 h1, h2 {
 	text-align: center;
 	font-family: "Trebuchet MS";
-	color: #5e2269;
+	color: #0074D9;
 	font-size: 2em;
 	margin: 0;
+	padding-top: 0.5em;
 }
 
-.summary, .read {
-	/*background-color: pink;*/
-	text-align: center;
-	margin: auto;
-	width: 75%;
+h1 a {
+	color: #0074D9;
+	text-decoration: none;
 }
+
+h1 a:hover {
+	border-bottom: solid;
+	/*color: #5e2269;*/
+	/*background-color: #0074D9;
+	color: white;
+	opacity: 0.5;*/
+	/*padding: 1em 0.2em;*/
+	/*padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 0.3em;*/
+}
+
+
 
 article {
-	background-color: grey;
-	/*margin-top: 5em;*/
-	/*border-style: solid;*/
 	margin-bottom: 4em;
   border-top: thick solid purple;
 	background-image: url(http://res.cloudinary.com/counterpoint-services/image/upload/c_scale,o_14,w_802,z_1.5/v1505646389/IMG_6188_rhc9yt.jpg);
-	/*background-color: white;*/
 	opacity: 30%;
+}
+
+.summary {
+	text-align: center;
+	margin: auto;
+	width: 75%;
 }
 
 .article_list {
@@ -127,14 +150,40 @@ article {
 }
 .date {
 	text-align: center;
-	margin-top: 0;
+	margin-top: 0.5em;
+	font-weight: bold;
+	font-style: italic;
+	color: #0074D9;
+	font-family: "Trebuchet MS";
 }
 
 .read {
 	/*background-color: red;*/
-	margin-top: 1em;
-	/*margin: 10em;*/
+	color: green;
+	text-align: center;
+	padding-top: 0.2em;
+	padding-bottom: 1em;
+	margin: 1em;
 }
+
+
+.read a {
+	color: #0074D9;
+	font-family: "Trebuchet MS";
+	font-size: 1.2;
+	text-decoration: none;
+}
+
+.read a:hover {
+	/*background-color: #0074D9;*/
+	/*color: white;*/
+	/*opacity: 0.5;*/
+	/*padding: 1em 0.2em;*/
+	/*padding: 1em;*/
+	/*border-style: solid;*/
+	border-bottom: solid;
+}
+
 /*Grid */
 
 * {
