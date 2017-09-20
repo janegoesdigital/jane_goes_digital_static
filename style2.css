@@ -1,0 +1,31 @@
+/*.home_page {
+	margin: auto;
+	min-height: 10em;
+	text-align: center;
+}
+
+.home_blog {
+	float: left;
+	width: 45%;
+	display: inline-block;
+	margin-right: 1.5em;
+	margin-left: 1.5em;
+	min-width: 20%;
+
+}
+
+.home_blog h1 {
+	font-size: 1.5em;
+
+}
+
+
+.home_blog .callout_small {
+	font-size: 1em;
+
+}
+
+
+.home_row {
+	margin: auto;
+}*/
