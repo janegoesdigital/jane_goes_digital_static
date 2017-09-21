@@ -5,13 +5,62 @@
 	margin: auto;
 }
 
+p {
+	font-size: 1.2em;
+	font-family: "'Source Sans Pro', sans-serif' ";
+}
+
+.date {
+	text-align: center;
+	margin-top: 0.5em;
+	margin-left: 0;
+	margin-right: 0;
+	font-style: italic;
+	color: #0074D9;
+	font-family: "'Source Sans Pro', sans-serif'";
+}
+
+
 /* Navigation */
 
 .nav {
 	background-image: url(https://res.cloudinary.com/counterpoint-services/image/upload/c_scale,o_42,w_984/v1505646107/photo_b0s6jw.jpg);
 	margin: auto;
 	width: 100%;
+	/*margin-bottom: 20em;*/
+	/*position: fixed;
+  right: 0;
+  left: 0;*/
 }
+
+.home_body {
+	margin-top: 2em;
+	border-top: solid;
+}
+
+
+.home_page {
+	margin: auto;
+	min-height: 10em;
+	width: 80%;
+	text-align: center;
+	background-color: orange;
+}
+
+.home_row {
+	margin-top: 2em;
+	/*background-color: orange;*/
+}
+
+.footer {
+	margin:auto;
+	width: 60%;
+	background-color: green;
+	height: 2em;
+}
+
+
+
 
 .nav_list {
 	list-style-type: none;
@@ -38,11 +87,8 @@
 		background-color: #0074D9;
 }
 
-.active {
-    background-color: blue;
-}
 
-#title {
+.title {
 	text-align: center;
 	font-family: "Trebuchet MS";
 	background-color: #5e2269;
@@ -52,6 +98,8 @@
 	padding-bottom: 0.3em;
 }
 
+
+/*This is the div that title is in*/
 .line {
 	margin-left: auto;
 	margin-right: auto;
@@ -63,28 +111,142 @@
 	color: white;
 }
 
-.second_line {
-	margin: auto;
-	width: 50%;
-	color: purple;
-	border-bottom: solid;
-	border-left: solid;
-	border-right: solid;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
-	margin-bottom: 0.5em;
+.line a {
+	text-decoration: none;
+	color:white;
+}
+
+.title:hover {
+	/*color:pink;*/
+	/*text-decoration: underline;*/
+	background-color: #0074D9;
+
 }
 
 
-/*Trying to position back button and heading in same line*/
+/*Home page*/
 
-.floating_box {
+.home_text {
+	font-size: 1.2em;
+	font-family: "'Source Sans Pro', sans-serif' ";
+}
+
+.signature {
+	font-family: "Dancing Script", cursive;
+	font-size: 1.7em;
+	color: #0074D9;
+	font-weight: bold;
+	margin-top: 0.2em;
+	margin-left: 0;
+	margin-right:0;
+	text-align: center;
+	/*width: 80%;*/
+}
+
+
+.read {
+
+	/*color: green;*/
+	text-align: center;
+	padding-top: 0.2em;
+	padding-bottom: 1em;
+	margin: 1em;
+}
+
+
+.read a {
+	color: #0074D9;
+	font-family: "Trebuchet MS";
+	font-size: 1.2;
+	text-decoration: none;
+}
+
+.read a:hover {
+	border-bottom: solid;
+}
+
+/*.more_buttons {
+	margin: auto;
+	width: 50%;
+}*/
+
+
+
+.more {
+	text-align: center;
 	display: inline-block;
-    width: 150px;
-    height: 75px;
-    margin: 10px;
-    border: 3px solid #73AD21;
-		margin-top: 5em;
+	padding-left: 2em;
+	margin:auto;
+}
+
+.more a {
+	padding: 10px 30px;
+	background-color: #0074D9;
+	text-decoration: none;
+	color: white;
+}
+
+.more a:hover {
+	background-color: #5e2269;
+}
+
+/*.more {
+	background-color:pink;
+	max-height: 1em;
+}*/
+
+/*Home page*/
+
+
+
+.home_blog {
+	float: left;
+	width: 45%;
+	display: inline-block;
+	margin-right: 1.5em;
+	margin-left: 1.5em;
+	min-width: 20%;
+
+}
+
+.home_blog h1 {
+	font-size: 1.5em;
+}
+
+.home_blog .callout_small {
+	font-size: 1em;
+}
+
+/*.home_row {
+	margin: auto;
+}*/
+
+.short_form {
+ margin-bottom: 3em;
+ border-top: thick solid #0074D9;
+ background-image: url(http://res.cloudinary.com/counterpoint-services/image/upload/c_scale,o_14,w_802,z_1.5/v1505646389/IMG_6188_rhc9yt.jpg);
+ opacity: 15%;
+}
+
+.callout_home {
+	font-size: 1.2em;
+	margin: auto;
+	padding: 1em;
+	font-family: cursive;
+	border-top: solid;
+	border-bottom: solid;
+	font-family: "'Source Sans Pro', sans-serif' ";
+	width: 80%;
+	color: #0074D9;
+};
+
+
+
+/*Back button and heading in same line*/
+
+.previous {
+    background-color: #0074D9;
+    color: white;
 }
 
 a.previous {
@@ -92,6 +254,8 @@ a.previous {
     display: inline-block;
     padding: 8px 16px;
 		margin-top: 0.5em;
+		background-color: #0074D9;
+		color:white;
 }
 
 a.previous:hover{
@@ -99,11 +263,8 @@ a.previous:hover{
     color: white;
 }
 
-.previous {
-    background-color: #0074D9;
-    color: white;
-}
 
+/*List of posts*/
 /*Left hand list of blog items*/
 
 .blog_menu {
@@ -115,7 +276,8 @@ a.previous:hover{
 	width: 80%;
 	text-align: left;
 	margin-bottom: 0.5em;
-  border-top: thick solid purple;
+  border-top: thick solid #0074D9;
+	margin-left: 0;
 }
 
 #blog_list {
@@ -139,10 +301,10 @@ a.previous:hover{
 	background-color: #0074D9;
 	color: white;
 	opacity: 0.5;
-	padding-left: 1em;
+	padding-left: 3em;
 }
 
-/*Blog post list */
+/*List of all blog posts */
 
 .article_list{
 	margin-top: 3em;
@@ -159,14 +321,6 @@ h1, h2 {
 	padding-left: 0;
 }
 
-.long_form h1 {
-	padding-top: 0.5em;
-	border-top: solid;
-	margin-top: 1.5em;
-	margin-left: 0;
-	margin-right: 0;
-}
-
 h1 a {
 	color: #0074D9;
 	text-decoration: none;
@@ -180,35 +334,24 @@ h2 {
 	font-size: 1.75em;
 }
 
-/*This is for the article page - to get the text under the line*/
-.article_heading {
-	padding-top: 4em;
-}
-
-. {
-
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-
-}
 
 
-.article_container {
-	width: 100%;
-	height: 3em;
+.callout_blog_list{
+	font-size: 1.4em;
+	margin: auto;
+	padding: 1em;
+	font-family: cursive;
+	border-top: solid;
+	border-bottom: solid;
+	font-family: "'Source Sans Pro', sans-serif' ";
 	color: #0074D9;
+	width: 70%;
+
 }
+/*Actual blog post*/
 
 
- .short_form {
-	margin-bottom: 4em;
-  border-top: thick solid #0074D9;
-	background-image: url(http://res.cloudinary.com/counterpoint-services/image/upload/c_scale,o_14,w_802,z_1.5/v1505646389/IMG_6188_rhc9yt.jpg);
-	opacity: 15%;
-}
-
-
+/*This is for the blog post page - to get the text under the line*/
 
 .long_form {
 	background-color:
@@ -216,139 +359,66 @@ h2 {
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
-
-
 }
 
-.long_form p {
-	font-size: 1.2em;
-	color: black;
+.long_form h1 {
+	padding-top: 0.5em;
+	border-top: solid;
+	margin-top: 1.5em;
+	margin-left: 0;
+	margin-right: 0;
 }
 
-p {
-	font-family: "'Source Sans Pro', sans-serif' ";
-}
-
-.callout, .callout_small{
-	font-size: 1.5em;
+.callout_post {
+	font-size: 1.4em;
 	margin: auto;
 	padding: 1em;
 	font-family: cursive;
 	border-top: solid;
 	border-bottom: solid;
 	font-family: "'Source Sans Pro', sans-serif' ";
+	color: #0074D9;
+	width: 70%;
+
 }
 
-p.callout {
+.callout p {
 	color: #0074D9;
-	font-size: 1.3em;
+	font-size: 1.2em;
 	margin: auto;
 	width: 60%;
 	font-style: italic;
+	border-top: solid;
+	border-bottom: solid;
+	font-family: "'Source Sans Pro', sans-serif' ";
+	width: 80%;
+	color: #0074D9;
+	background-color: red;
 }
+
+
 
 .callout_small {
 	color: #0074D9;
-	font-size: 1.3em;
+	/*font-size: 2em;*/
 	width: 60%;
+}
 
-}
-.summary {
-	text-align: center;
-	margin: auto;
-	width: 75%;
-}
+
 
 .article_list {
 	float: right;
 }
 
-.date {
-	text-align: center;
-	margin-top: 0.5em;
-	margin-left: 0;
-	margin-right: 0;
-	font-style: italic;
-	color: #0074D9;
-	font-family: "'Source Sans Pro', sans-serif'";
-}
 
-.read {
-
-	color: green;
-	text-align: center;
-	padding-top: 0.2em;
-	padding-bottom: 1em;
-	margin: 1em;
-}
-
-
-.read a {
-	color: #0074D9;
-	font-family: "Trebuchet MS";
-	font-size: 1.2;
-	text-decoration: none;
-}
-
-.read a:hover {
-	/*background-color: #0074D9;*/
-	/*color: white;*/
-	/*opacity: 0.5;*/
-	/*padding: 1em 0.2em;*/
-	/*padding: 1em;*/
-	/*border-style: solid;*/
-	border-bottom: solid;
-}
-
-.footer {
-    background-color: red;
-    text-align: center;
-    /*padding: 3em;*/
-}
-
-/*Home page*/
-
-.home_page {
-	margin: auto;
-	min-height: 10em;
-	width: 80%;
-	text-align: center;
-}
-
-.home_blog {
-	float: left;
-	width: 45%;
-	display: inline-block;
-	margin-right: 1.5em;
-	margin-left: 1.5em;
-	min-width: 20%;
-
-}
-
-.home_blog h1 {
-	font-size: 1.5em;
-}
-
-.home_blog .callout_small {
-	font-size: 1em;
-}
-
-.home_row {
-	margin: auto;
-}
-
+/*
 p {
 	text-align: center;
 	font-family:"'Source Sans Pro', sans-serif' ";
-	font-size: 1.1em;
-}
+	font-size: 1.2em;
+}*/
 
-.signature {
-	font-family: "Dancing Script", cursive;
-	font-size: 1.5em;
-	color: #0074D9;
-	font-weight: bold;
-}
+
 
 /*Grid */
 
