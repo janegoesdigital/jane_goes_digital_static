@@ -118,12 +118,12 @@ p {
 	/*background-color: orange;*/
 }
 
-.footer {
+/*.footer {
 	margin:auto;
 	width: 60%;
 	background-color: green;
 	height: 2em;
-}
+}*/
 
 
 
@@ -172,23 +172,24 @@ p {
 }*/
 
 
-
 .more {
 	text-align: center;
-	display: inline-block;
-	padding-left: 2em;
+	background-color: #0074D9;
+	min-height: 4em;
 	margin:auto;
+	margin-bottom: 4em;
+
 }
 
 .more a {
 	padding: 10px 30px;
-	background-color: #0074D9;
 	text-decoration: none;
 	color: white;
 }
 
 .more a:hover {
-	background-color: #5e2269;
+	/*background-color: #5e2269;*/
+	text-decoration: underline;
 }
 
 /*.more {
@@ -198,8 +199,13 @@ p {
 
 /*Home page*/
 
+.footer p {
+color: white;
+}
 
-
+.footer .signature {
+	color:white;
+}
 .home_blog {
 	float: left;
 	width: 45%;
@@ -435,7 +441,7 @@ p {
 
 .col {
   float: left;
-  min-height: 200px;
+  min-height: 100px;
   /*border: 10px solid black;*/
   /*background: gainsboro;*/
   -webkit-transition: background 1s;
@@ -518,6 +524,11 @@ p {
 	.menu_item a {
 	    padding: 1.1em 1.4em;
 	    text-decoration: none;
+	}
+
+	.short_form {
+		margin-right:1em;
+		/*width: 100%;*/
 	}
 
 }
