@@ -150,7 +150,7 @@ p {
 	/*color: green;*/
 	text-align: center;
 	padding-top: 0.2em;
-	/*padding-bottom: 1em;*/
+	padding-bottom: 1em;
 	margin: 1em;
 }
 
@@ -221,25 +221,23 @@ p {
 
 
 .short_form {
-/*width: 85%;*/
-padding: 1em;
-padding-top: 0em;
-margin-right: 2em;
-margin-bottom: 2em;
-border-top: thick solid #0074D9;
+width: 85%;
+padding: 2em;
+ margin-bottom: auto;
+ border-top: thick solid #0074D9;
  background-image: url(http://res.cloudinary.com/counterpoint-services/image/upload/c_scale,o_14,w_802,z_1.5/v1505646389/IMG_6188_rhc9yt.jpg);
  opacity: 15%;
 }
 
 .callout_home {
-	font-size: 1.2em;
+	font-size: 1.3em;
 	margin: auto;
-	padding: 1.5em;
+	padding: 1em;
 	font-family: cursive;
 	border-top: solid;
 	border-bottom: solid;
 	font-family: "'Source Sans Pro', sans-serif' ";
-	width: 100%;
+	width: 80%;
 	color: #0074D9;
 };
 
@@ -472,6 +470,11 @@ p {
   width: -o-calc(100% / 3);
   width: calc(100% / 3);
 }
+
+.col-5 {
+	width: 40%;
+}
+
 
 .col-6 {
   width: 50%;
