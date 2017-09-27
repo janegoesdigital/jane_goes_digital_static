@@ -8,7 +8,7 @@
 p {
 	font-size: 1.2em;
 	font-family: "'Source Sans Pro', sans-serif' ";
-	text-align: justify;
+	/*text-align: justify;*/
 }
 
 .date {
@@ -379,14 +379,17 @@ h2 {
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
+	display: inline-block;
 }
 
 .long_form h1 {
 	padding-top: 0.5em;
 	border-top: solid;
-	margin-top: 1.5em;
+	/*margin-top: 1.5em;*/
 	margin-left: 0;
 	margin-right: 0;
+	padding-left: 0em;
+	/*text-align: left;*/
 }
 
 .callout_post {
@@ -527,12 +530,16 @@ p {
 
 
 	.long_form {
-		width: 95%;
+		width: 90%;
+		margin: auto;
+
 	}
 
 	.article_container {
 		padding-top: 3em;
-		width: 100%;
+		width: 90%;
+		margin:auto;
+		display:inline-block;
 	}
 
 	.long_form h1 {
