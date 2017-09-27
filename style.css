@@ -294,7 +294,7 @@ a.previous:hover{
 	margin-left: 0;
 }
 
-#blog_list {
+.blog_list {
 	list-style: none;
 	margin: 0;
   padding: 0;
@@ -309,6 +309,7 @@ a.previous:hover{
 		padding-top: 0.8em;
 		padding-bottom: 0.8em;
     text-decoration: none;
+		font-size: 1em;
 }
 
 .blog_item a:hover {
@@ -322,7 +323,11 @@ a.previous:hover{
 /*List of all blog posts */
 
 .article_list{
-	margin-top: 3em;
+	margin-top: 1em;
+}
+
+.blog_menu {
+	margin-top: 2em;
 }
 
 h1, h2 {
@@ -334,6 +339,7 @@ h1, h2 {
 	margin: auto;
 	padding-top: 0.5em;
 	padding-left: 0;
+	/*background-color: green;*/
 }
 
 h1 a {
@@ -355,7 +361,6 @@ h2 {
 	font-size: 1.4em;
 	margin: auto;
 	padding: 1em;
-	font-family: cursive;
 	border-top: solid;
 	border-bottom: solid;
 	font-family: "'Source Sans Pro', sans-serif' ";
@@ -520,9 +525,25 @@ p {
     width: 100%;
   }
 
-	h1 {
-		font-size: 1.5em;
+
+	.long_form {
+		width: 95%;
 	}
+
+	.article_container {
+		padding-top: 3em;
+		width: 100%;
+	}
+
+	.long_form h1 {
+		font-size: 1.5em;
+		/*text-align: left;*/
+
+	}
+
+
+
+
 
 	.title {
 		font-size: 1.5em;
@@ -537,13 +558,41 @@ p {
 		/*width: 100%;*/
 	}
 
+.blog_list {
+	width:100%;
+}
+
+
+
 	.blog_menu h1 {
 		text-align: center;
+		width: 100%;
 	}
+
+.blog_item {
+	margin: auto;
+	width: 100%;
+}
+
+
 	.blog_item a {
 	    text-align: center;
-			padding-top: 0.2em;
-			padding-bottom: 0.2em;
+			padding-top: 0.5em;
+			padding-bottom: 0.5em;
+			width: 100%;
+			margin: auto;
+	}
+
+	.blog_item a:hover {
+		background-color: #0074D9;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		width: 75%;
+	}
+
+	.callout_blog_list {
+		width: 95%;
+		font-size: 1.2em;
 	}
 
 }
@@ -567,13 +616,36 @@ p {
   .md-col-12 {
     width: 100%;
   }
+
+
 	.blog_menu h1 {
 		text-align: center;
+		width: 100%;
 	}
+
+
+.blog_list {
+	width: 100%;
+}
+
+	.blog_item {
+		margin: auto;
+		width: 100%;
+	}
+
+
 	.blog_item a {
 	    text-align: center;
-			padding-top: 0.2em;
-			padding-bottom: 0.2em;
+			padding-top: 0.5em;
+			padding-bottom: 0.5em;
+			width: 50%;
+			margin: auto;
+
+	}
+
+	.blog_item a:hover {
+		background-color: #0074D9;
+		padding-left: 0em;
 	}
 
 }
