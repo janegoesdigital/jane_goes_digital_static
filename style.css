@@ -28,6 +28,7 @@ p {
 /*Navbar as a whole*/
 .nav {
 	background-image: url(https://res.cloudinary.com/counterpoint-services/image/upload/c_scale,o_42,w_984/v1505646107/photo_b0s6jw.jpg);
+	/*background-image: url("ceiling.png");*/
 	margin: auto;
 	width: 100%;
 	/*margin-bottom: 20em;*/
@@ -226,7 +227,7 @@ margin-top: 1em;
 margin-right: 2em;
 margin-bottom: 2em;
 border-top: solid #0074D9;
- background-image: url(http://res.cloudinary.com/counterpoint-services/image/upload/c_scale,o_14,w_802,z_1.5/v1505646389/IMG_6188_rhc9yt.jpg);
+background-image: url(https://res.cloudinary.com/counterpoint-services/image/upload/c_scale,o_14,w_802,z_1.5/v1505646389/IMG_6188_rhc9yt.jpg);
  opacity: 15%;
 }
 
