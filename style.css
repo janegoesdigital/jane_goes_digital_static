@@ -144,7 +144,6 @@ p {
 
 .read {
 
-	/*color: green;*/
 	text-align: center;
 	padding-top: 0.2em;
 	/*padding-bottom: 1em;*/
@@ -175,6 +174,18 @@ p {
 	min-height: 4em;
 	margin:auto;
 	margin-bottom: 4em;
+}
+
+.share_button_post {
+	padding-right: 2em;
+	margin-bottom: 2em;
+}
+
+
+.share_button_centre {
+	margin: auto;
+	width: 100%;
+	margin-left: 40%;
 }
 
 .footer .signature {
@@ -529,13 +540,6 @@ p {
 		margin-top: 10em;
 	}
 
-	/*.article_container {
-		/*padding-top: 2em;*/
-		/*width: 90%;*/
-		/*margin:auto;*/
-		/*display:inline-block;*/
-	/*}*/
-
 
 	h1 {
 		font-size:1.5em;
@@ -548,12 +552,8 @@ p {
 
 	.long_form h1 {
 		font-size: 1.5em;
-		/*text-align: left;*/
 
 	}
-
-
-
 
 
 	.title {
@@ -612,7 +612,8 @@ p {
 		margin-top: 0.2em;
 	}
 
-
+	.share_button_centre {
+		margin: auto;
 }
 
 
@@ -666,6 +667,19 @@ p {
 		padding-left: 0em;
 		padding-top: 0.5em;
 		padding-bottom: 0.5em;
+	}
+
+
+	.centre_buttons {
+		background-color: pink;
+		margin: auto;
+		margin-left: 40%;
+		margin-right: 40%;
+		float:left;
+	}
+
+	.share_button_centre {
+		margin: auto;
 	}
 
 }
