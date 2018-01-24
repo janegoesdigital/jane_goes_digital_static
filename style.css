@@ -5,11 +5,13 @@
 	margin: auto;
 }
 
-p {
+p, ul, li {
 	font-size: 1.2em;
 	font-family: "'Source Sans Pro', sans-serif' ";
 	text-align: justify;
 }
+
+
 
 .date {
 	text-align: center;
